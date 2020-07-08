@@ -1,0 +1,28 @@
+mesh_number:0
+stab_flag:0
+nnode: 13041
+nelement: 12800
+L_x:   8.000000000000000e-01, L_y:   6.000000000000000e-01
+L_y_water:   3.000000000000000e-01, L_y_air:   3.000000000000000e-01
+x_elem: 80, y_elem: 160
+y_elem_water: 80, y_elem_air: 80
+x_node: 81, y_node: 161
+time_max:   5.000000000000000e+01, nstep: 21360
+dt:   2.340823970037453e-03
+sample_num: 50, nblk: 50
+
+result_file_name: 20200624_cul1_53_1
+start_time: 2020/ 6/24  3: 6:45 0
+
+ncal_max: 2000, mcal_max: 100
+error1:   5.715767664977295e-06, error2:   1.714730299493189e-06
+
+about drop_material
+rho_water:   2.300000000000000e+03, nu_water:   2.000000000000000e-07
+rho_air:   2.000000000000000e-07, nu_air:   3.300000000000000e+06
+電磁場計算を加えた後に記述した内容について
+磁場の境界条件: (app_Bx, app_By)=(  1.000000000000000e-02,   0.000000000000000e+00)
+加振終了時刻 time_slo_stop:   1.000000000000000e+01
+磁場印加時刻 time_em_start:   1.500000000000000e+01
+はじめから解析(0)・続きから解析(1) cul_mode: 1
+supgの有(1)・無(0) flag_supg: 0
